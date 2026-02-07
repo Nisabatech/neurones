@@ -1,7 +1,7 @@
 # Neurones
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nisabatech/neurones/main/assets/logo.png" alt="Neurones logo" width="700" />
+  <img src="assets/logo.png" alt="Neurones logo" width="700" />
 </p>
 
 Neurones is a multi-model orchestrator for developer-focused AI CLIs.  
