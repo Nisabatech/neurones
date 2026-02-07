@@ -1,0 +1,71 @@
+/* Neurones TUI Stylesheet */
+
+Screen {
+    layout: vertical;
+}
+
+#top-area {
+    height: 1fr;
+    layout: horizontal;
+}
+
+#sidebar {
+    width: 20;
+    border: round grey;
+    padding: 1;
+    height: 100%;
+}
+
+#main-area {
+    width: 1fr;
+    height: 100%;
+    layout: vertical;
+}
+
+AgentPanel {
+    border: round grey;
+    height: 1fr;
+    overflow-y: auto;
+    padding: 0 1;
+}
+
+AgentPanel.running {
+    border: round yellow;
+}
+
+AgentPanel.success {
+    border: round green;
+}
+
+AgentPanel.failed {
+    border: round red;
+}
+
+#prompt-input {
+    height: 3;
+    dock: bottom;
+    border: round #888888;
+    margin: 0 0;
+}
+
+#prompt-input:focus {
+    border: round #00aaff;
+}
+
+#status-bar {
+    height: 1;
+    dock: bottom;
+    background: #1a1a2e;
+    color: #aaaaaa;
+    padding: 0 1;
+}
+
+/* Settings screen */
+#settings-container {
+    width: 60;
+    height: auto;
+    border: round #888888;
+    padding: 1 2;
+    margin: 2 4;
+    align: center middle;
+}
